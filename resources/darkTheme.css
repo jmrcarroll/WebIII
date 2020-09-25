@@ -1,0 +1,63 @@
+body {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+/* the container for the quiz division of the page.  */
+#Main {
+    text-align: center;
+    /* Since the division is using inline-block we can use text-align to centre the box */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    text-align: left;
+    color: white;
+}
+
+/*Division which contains all of the contents of the web page. */
+#content {
+
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: darkslategrey;
+    color: white;
+    align-self: center;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+input[type=text] {
+    border-radius: 25px;
+    font-family: sans-serif, arial;
+    padding-left: 5px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+}
+
+option,
+select {
+    border-radius: 25px;
+    font-family: sans-serif, arial;
+    padding-left: 5px;
+    background-color: black;
+    border: 1px gray;
+    color: white;
+}
+
+input[type=submit],
+button {
+    border-radius: 25px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+}

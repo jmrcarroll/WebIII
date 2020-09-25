@@ -1,0 +1,150 @@
+body{
+    align-self: center;
+    font: arial;
+    font-size: 15px;
+    display: block;
+    background-image: url(../GlobalImages/bgImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* the container for the quiz division of the page.  */
+#Main{
+text-align: center;/* Since the division is useing inline-block we can use text-alligh to centre the box */
+}
+
+#header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/*Division which contains all of the contents of the webpage. */
+#navbar{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    background-color: white;
+    color: black;
+    height: auto;
+    display: inline-block;
+}
+#content{
+    padding: 10px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius: 25px;
+    background-color:white;
+    color: black;
+    align-self: center;
+    height: auto;
+    display: inline-block;
+
+    
+}
+
+input[type=text],input[type=password]{
+    border-radius: 25px;
+    font-family: sans-serif, arial;
+}
+
+option, select{
+        border-radius: 25px;
+    font-family: sans-serif, arial;
+    padding-left: 5px;
+    background-color: saddlebrown;
+    border-color: brown;
+    border: 1px;
+    color: white;
+}
+
+input[type=submit], button {
+    border-radius: 25px;
+    background-color: saddlebrown;
+    border-color: brown;
+    color: white;
+}
+#Footer{
+     position: fixed;
+     bottom: 0;
+     background-color: RGBA(0,0,0,0.75);
+     width: 100%;
+     height: auto;
+     color: white;
+     text-align: center;
+ }
+
+
+#shoptbl{
+    all: unset, !important;
+    display: flex;
+    justify-content: center;
+}
+
+.topRow {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.topRow div:first-child {
+    width: 20%;
+    text-align:center;
+}
+
+.topRow div:nth-child(2) {
+    width: 60%;
+    text-align:center;
+}
+
+.topRow div:last-child {
+    width: 20%;
+    text-align:center;
+}
+
+.row {
+    width:100%;
+
+}
+
+.row div {
+    display: inline-block;
+    padding:1rem;
+    box-sizing:border-box;
+    margin-bottom: 1rem;
+}
+
+.row div:first-child {
+    width: 20%;
+    text-align:center;
+}
+
+.row div:nth-child(2) {
+    width: 60%;
+    text-align:center;
+}
+
+.row div:last-child {
+    width: 20%;
+    text-align:center;
+}
+
+.center {
+    width:100% !important;
+}
+
+.button  {
+    all:unset;
+    width:100% !important;
+    background: #ccc;
+    border-radius: 0.25rem;
+    font-weight: 900;
+    font-size:20px;
+}
