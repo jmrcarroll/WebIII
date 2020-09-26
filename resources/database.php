@@ -1,8 +1,8 @@
 <?php
-$dsn = 'mysql:host=mysql.ccacolchester.com; dbname=johnc4479';
-$dbuser ="johnc4479";
-$dbpass ="1484479!";
-
+$dsn = '';
+$dbuser ="";
+$dbpass ="";
+//the preceding information was omitted
 try{
     $db = new PDO($dsn,$dbuser,$dbpass);
     $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
